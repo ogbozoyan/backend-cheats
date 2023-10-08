@@ -2199,7 +2199,7 @@ When developing server applications, [different API formats](https://youtu.be/4v
 
 -   ### Postman/Insomnia
 
-    When creating a server application, it is necessary to test its performance. This can be done in different ways. One of the easiest is to use the console utility [curl](https://en.wikipedia.org/wiki/CURL). But this is good for very simple applications. Much more efficient is to use special software for testing, which have a user-friendly interface and all the necessary functionality to create collections of queries.
+    When creating a server application, it is necessary to test it's workability. This can be done in different ways. One of the easiest is to use the console utility [curl](https://en.wikipedia.org/wiki/CURL). But this is good for very simple applications. Much more efficient is to use special software for testing, which have a user-friendly interface and all the necessary functionality to create collections of queries.
 
     -   [Postman](https://www.postman.com/)
         > A very popular and feature-rich program. It definitely has everything you might need and more: from the trivial creation of collections to raising mock-servers. The basic functionality of the application is free of charge.
@@ -2256,9 +2256,9 @@ When developing server applications, [different API formats](https://youtu.be/4v
 
     A message is an ordinary HTTP request/response with data of a certain format.
 
-    -   [RabbitMQ](https://en.wikipedia.org/wiki/RabbitMQ)
-    -   [Apache Kafka](https://en.wikipedia.org/wiki/Apache_Kafka)
-    -   [NATS](https://nats.io/)
+    -   [RabbitMQ](https://en.wikipedia.org/wiki/RabbitMQ) - specializes in message queuing and supports various messaging patterns, including publish/subscribe and point-to-point communication.
+    -   [Apache Kafka](https://en.wikipedia.org/wiki/Apache_Kafka) - excels in handling large-scale, real-time data streams and offers high throughput, fault tolerance, and horizontal scalability.
+    -   [NATS](https://nats.io/) - known for its simplicity, speed, and lightweight design, making it ideal for building fast and efficient distributed systems.
 
 <details>
     <summary>🔗 <b>References</b></summary>
